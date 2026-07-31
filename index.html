@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="description"
+    content="Luxury Hotel & Resort offering elegant rooms, premium amenities, fine dining, spa services, and exceptional hospitality.">
+    <title>Luxury Hotel & Resort</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+
+    <!-- Bootstrap Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a
+          href="index.html"
+          class="navbar-brand fs-2 fw-bold d-flex align-items-center"
+        >
+          <img
+            src="images/logo.jpg"
+            alt="Luxury Hotel Logo"
+            width="50"
+            height="45"
+            class="me-3"
+          />
+
+          Luxury Hotel & Resort
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fw-bold ms-auto">
+            <li class="nav-item mx-2">
+              <a href="index.html" class="nav-link active fw-semibold">
+                Home
+              </a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a href="rooms.html" class="nav-link fw-semibold">
+                Rooms & Suites
+              </a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a href="services.html" class="nav-link fw-semibold">
+                Services
+              </a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a href="gallery.html" class="nav-link fw-semibold"> Gallery </a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a href="contact.html" class="nav-link fw-semibold"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-light text-center text-sm-start">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold">
+              Experience Luxury
+              <span class="text-warning">Like Never Before</span>
+            </h1>
+
+            <p class="lead my-4">
+              Discover world-class hospitality, elegant rooms, breathtaking
+              views, and unforgettable experiences at Luxury Hotel & Resort.
+            </p>
+
+            <a href="booking.html" class="btn btn-warning btn-lg">
+              Reserve Your Stay
+            </a>
+          </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0 mb-5">
+            <img
+              src="images/hotel-lobby.jpg"
+              class="img-fluid hero-img shadow"
+              alt="Luxury Hotel"
+              width="700"
+              height="500"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Image -->
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <img
+              src="images/about-hotel.jpg"
+              alt="Modern deluxe hotel room"
+              class="img-fluid rounded shadow"
+              loading="lazy"
+            />
+          </div>
+
+          <!-- Text -->
+          <div class="col-lg-6">
+            <h2 class="display-5 fw-bold mb-4">
+              Welcome to <span class="text-warning">Luxury Hotel & Resort</span>
+            </h2>
+
+            <p class="lead">
+              At Luxury Hotel & Resort, we combine timeless elegance with modern
+              comfort to create unforgettable experiences for every guest.
+            </p>
+
+            <p>
+              Whether you're visiting for business, a family vacation, or a
+              romantic getaway, our luxurious accommodations, exceptional
+              dining, relaxing spa, and world-class hospitality ensure every
+              stay is truly memorable.
+            </p>
+
+            <a href="rooms.html" class="btn btn-primary mt-3 btn-lg">
+              Explore Our Rooms
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Rooms -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-5">Featured Rooms</h2>
+          <p class="text-muted fs-5">
+            Choose from our luxurious rooms and suites designed for maximum
+            comfort.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Room 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow border-0">
+              <img
+                src="images/standard-room.jpg"
+                class="card-img-top"
+                alt="Standard Room"
+                loading="lazy"
+              />
+
+              <div class="card-body text-center">
+                <h4 class="card-title">Standard Room</h4>
+
+                <p class="card-text">
+                  Comfortable accommodation with modern amenities for a Relaxing
+                  stay.
+                </p>
+
+                <a href="rooms.html" class="btn btn-warning">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow rounded border-0">
+              <img
+                src="images/deluxe-room.jpg"
+                class="card-img-top"
+                alt="Deluxe Room"
+                loading="lazy"
+              />
+
+              <div class="card-body text-center">
+                <h4 class="card-title">Deluxe Room</h4>
+
+                <p class="card-text">
+                  Spacious elegance with premium furnishings and beautiful
+                  views.
+                </p>
+
+                <a href="rooms.html" class="btn btn-warning">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow rounded border-0">
+              <img
+                src="images/presidential-room.jpg"
+                class="card-img-top"
+                alt="Presidential"
+                loading="lazy"
+              />
+
+              <div class="card-body text-center">
+                <h4 class="card-title">Presidential Suite</h4>
+
+                <p class="card-text">
+                  Experience the finest luxury with exclusive amenities and
+                  exceptional comfort.
+                </p>
+
+                <a href="rooms.html" class="btn btn-warning">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room 4 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow rounded border-0">
+              <img
+                src="images/family-room.jpg"
+                class="card-img-top"
+                alt="Family Room"
+                loading="lazy"
+              />
+
+              <div class="card-body text-center">
+                <h4 class="card-title">Family Room</h4>
+
+                <p class="card-text">
+                  Enjoy spacious accommodations designed for families, offering
+                  comfort, convenience, and unforgettable moments together.
+                </p>
+
+                <a href="rooms.html" class="btn btn-warning">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-5 text-primary">Why Choose Us</h2>
+          <p class="text-muted fs-5">
+            Everything you need for an unforgettable stay.
+          </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <!-- Card 1 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="card shadow h-100 border-0">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-stars text-warning display-4"></i>
+                <h4 class="mt-3">Luxury Rooms</h4>
+                <p>
+                  Elegant rooms designed for ultimate comfort and relaxation.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="card shadow h-100 border-0">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-cup-hot-fill text-warning display-4"></i>
+                <h4 class="mt-3">Fine Dining</h4>
+                <p>Enjoy delicious meals prepared by our world-class chefs.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="card shadow h-100 border-0">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-wifi text-warning display-4"></i>
+                <h4 class="mt-3">Free Wi-Fi</h4>
+                <p>Stay connected with complimentary high-speed internet.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+           <div class="col-lg-3 col-md-6">
+            <div class="card shadow h-100 border-0">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-headset display-4 text-warning"></i>
+                <h4 class="mt-3">24/7 Concierge</h4>
+                <p>Our dedicated team is available around the clock to ensure every guest enjoys a seamless stay.</p>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-5 text-success">Guest Testimonials</h2>
+
+          <p class="fs-5">Hear what our guests have to say.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="card shadow border-0 h-100">
+              <div class="card-body text-center p-4">
+                <img
+                  src="images/person2.jpg"
+                  class="rounded-circle img-fluid d-block mx-auto mb-3"
+                  width="120"
+                  height="120"
+                  alt="Sarah Johnson"
+                  loading="lazy"
+                />
+
+                <h4 class="mt-3 fw-bold">Sarah Johnson</h4>
+                <p class="text-warning fs-4">★★★★★</p>
+                <p>
+                  "One of the best hotels I've ever stayed in. Every detail
+                  exceeded my expectations."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow border-0 h-100">
+              <div class="card-body text-center p-4">
+                <img
+                  src="images/person1.jpg"
+                  class="rounded-circle img-fluid d-block mx-auto mb-3"
+                  width="120"
+                  height="120"
+                  alt="Michael Brown"
+                  loading="lazy"
+                />
+
+                <h4 class="mt-3 fw-bold">Michael Brown</h4>
+                <p class="text-warning fs-4">★★★★★</p>
+                <p>
+                  "Absolutely amazing! The rooms were spotless, the food was
+                  delicious, and the staff made us feel at home."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow border-0 h-100">
+              <div class="card-body text-center p-4">
+                <img
+                  src="images/person4.jpg"
+                  class="rounded-circle img-fluid d-block mx-auto mb-3"
+                  width="120"
+                  height="120"
+                  alt="Emily Wilson"
+                  loading="lazy"
+                />
+
+                <h4 class="mt-3 fw-bold">Emily Wilson</h4>
+                <p class="text-warning fs-4">★★★★★</p>
+                <p>
+                  "Luxury, comfort, and excellent customer service. I can't wait
+                  to visit again!"
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow border-0 h-100">
+              <div class="card-body text-center p-4">
+                <img
+                  src="images/person3.jpg"
+                  class="rounded-circle img-fluid d-block mx-auto mb-3"
+                  width="120"
+                  height="120"
+                  alt="David Anderson"
+                  loading="lazy"
+                />
+
+                <h4 class="mt-3 fw-bold">David Anderson</h4>
+                <p class="text-warning fs-4">★★★★★</p>
+                <p>
+                  "From the luxurious rooms to the outstanding customer service,
+                  every moment of our stay was unforgettable. Highly
+                  recommended!"
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow border-0 h-100">
+              <div class="card-body text-center p-4">
+                <img
+                  src="images/person6.jpg"
+                  class="rounded-circle img-fluid d-block mx-auto mb-3"
+                  width="120"
+                  height="120"
+                  alt="Sophia Martinez"
+                  loading="lazy"
+                />
+
+                <h4 class="mt-3 fw-bold">Sophia Martinez</h4>
+                <p class="text-warning fs-4">★★★★★</p>
+                <p>
+                  "The hotel exceeded all our expectations. Beautiful
+                  facilities, delicious dining, and friendly staff made our
+                  vacation truly special."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow border-0 h-100">
+              <div class="card-body text-center p-4">
+                <img
+                  src="images/person5.jpg"
+                  class="rounded-circle img-fluid d-block mx-auto mb-3"
+                  width="120"
+                  height="120"
+                  alt="Anthony Lautaro"
+                  loading="lazy"
+                />
+
+                <h4 class="mt-3 fw-bold">Anthony Lautaro</h4>
+                <p class="text-warning fs-4">★★★★★</p>
+                <p>
+                  "Every detail was thoughtfully designed for comfort and
+                  luxury. We enjoyed the peaceful atmosphere and can't wait to
+                  return."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="bg-warning py-5 text-center">
+      <div class="container">
+        <h2 class="fw-bold display-5 mb-3">Ready to Experience Luxury?</h2>
+
+        <p class="lead mb-4">
+          Book your stay today and enjoy exceptional comfort, luxury, and
+          unforgettable memories.
+        </p>
+
+        <a href="contact.html" class="btn btn-dark btn-lg">Book Your Stay</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+      <div class="container">
+        <div class="row">
+          <!-- About -->
+          <div class="col-lg-4 col-md-6 mb-4 text-center">
+            <h4 class="fw-bold mb-3">Luxury Hotel & Resort</h4>
+
+            <p class="text-light">
+              Experience world-class comfort, elegant rooms, premium amenities,
+              and exceptional hospitality for an unforgettable stay.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-md-6 mb-4 text-center">
+            <h5 class="fw-bold mb-3">Quick Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.html" class="text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="rooms.html" class="text-decoration-none">Rooms</a>
+              </li>
+              <li>
+                <a href="services.html" class="text-decoration-none"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="gallery.html" class="text-decoration-none">Gallery</a>
+              </li>
+              <li>
+                <a href="contact.html" class=" text-decoration-none">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-lg-3 col-md-6 mb-4 text-center">
+            <h5 class="fw-bold mb-3">Contact Us</h5>
+
+            <p>
+              <i class="bi bi-geo-fill me-2"></i>
+              123 Jakpa Road, Warri, Nigeria
+            </p>
+
+            <p>
+              <i class="bi bi-telephone-fill me-2"></i>
+              +234 800 123 4567
+            </p>
+
+            <p>
+              <i class="bi bi-envelope-fill me-2"></i>
+              info@luxuryhotel.com
+            </p>
+          </div>
+
+          <!-- Social -->
+          <div class="col-lg-3 col-md-6 social-icons mb-4 text-center">
+            <h5 class="fw-bold mb-3">Follow Us</h5>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/"
+              class="d-inline-block fs-1 me-3"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit our Facebook page">
+              <i class="bi bi-facebook"></i>
+            </a>
+
+           <!-- Instagram -->
+            <a href="https://www.instagram.com/"
+              class="d-inline-block fs-1 me-3"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit our Instagram page">
+              <i class="bi bi-instagram"></i>
+            </a>
+
+            <!-- Twitter/X -->
+            <a href="https://x.com/"
+              class="d-inline-block fs-1 me-3"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit our X page">
+              <i class="bi bi-twitter"></i>
+            </a>
+
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/"
+              class="d-inline-block fs-1 me-3"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit our YouTube channel">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+        <hr />
+
+        <p class="text-center mb-0">
+          &copy; 2026 Luxury Hotel & Resort. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
